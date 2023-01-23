@@ -1,0 +1,171 @@
+body{
+    background-color: #A4C7F4;
+}
+
+
+header {
+    background-color: #2A7AE4;
+    padding: 1%;
+    
+}
+
+.logo {
+    width: 50px;
+}
+
+
+form{
+    
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.input-texto{
+    display: block;
+    margin: 20px 0 10px;
+    padding: 10px 25px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+
+    
+
+}
+
+.input-texto::placeholder{
+    color: #10407F;
+}
+
+.input-texto:hover{
+    outline: none;
+}
+
+
+h6{
+    font-style: italic;
+    color: #10407F;
+
+}
+
+.input-texto2{
+    background-image: url(imagenes/muneco.JPG);
+    background-repeat: no-repeat;
+    display: block;
+    margin: 20px 0 10px;
+    padding: 10px 25px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    text-transform: lowercase;
+    border-radius: 20px;
+    position: absolute;
+    
+
+    
+
+}
+
+.input-texto3:hover{
+    outline: none;
+}
+
+.botones {
+    text-align: center;
+    width: 940px;
+    margin: 400px 0 0 0;
+    
+    
+    
+}
+
+.encriptar{
+    background-color: #10407F;
+    font-size: 25px;
+    color: white;
+    border: solid #10407F; 
+    border-radius: 10px;
+    height: 50px;
+    width: 200px;
+    margin-right: 60px;
+    cursor: pointer;
+    
+
+}
+
+.desencriptar{
+    background-color: #3F3B3D;
+    font-size: 25px;
+    color: white;
+    border: solid #3F3B3D; 
+    border-radius: 10px;
+    height: 50px;
+    width: 200px;
+    margin-right: 30px;
+    cursor: pointer;
+    
+
+}
+.encriptar:hover{
+    background: #124991;
+    border: solid #124991; 
+    
+
+}
+
+.desencriptar:hover{
+    background: #4A4547;
+    border: solid #4A4547;
+    
+    
+    
+    
+
+}
+
+.boton-copiar{
+    text-align: center;
+
+}
+
+.copiar{
+    position: absolute;
+    margin-top: 280px;
+    background-color: white;
+    font-size: 25px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+    
+}
+
+
+.copiar:hover{
+ background: #F5F5F5;
+}
+
+footer{
+    
+    text-align: center;
+    background: #071B36;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-top: 1%;
+}
+
+footer img {
+    width: 100px;
+    cursor: pointer;
+}
+.copyright{
+    color:#FFFFFF;
+    font-size: 13px;
+    margin:20px;
+}

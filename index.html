@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Encriptador</title>
+</head>
+
+<body>
+    <header>
+        <img src="imagenes/logo.png" alt="Logo de Alura" class="logo">
+    </header>
+    <main>
+        <form>
+
+            <textarea cols="70" rows="7" class="input-texto" id="input-texto"
+                placeholder="Ingrese el texto aquí"></textarea>
+
+            <div>
+                <h6>
+                    &#9888 Solo letras minúsculas sin acentos
+                </h6>
+            </div>
+
+            <section>
+                <textarea cols="70" rows="13" class="input-texto2" id="input-texto2" readonly placeholder=""></textarea>
+                <div class="boton-copiar">
+                    <button class="copiar" id="copiar">Copiar</button>
+                </div>
+            </section>
+
+
+
+            <section>
+                <div class="botones">
+                    <input type="submit" value="Encriptar" class="encriptar">
+                    <input type="submit" value="Desencriptar" class="desencriptar">
+                </div>
+            </section>
+
+
+
+        </form>
+    </main>
+    <footer>
+        <a href="https://github.com/Aleja84" title="GitHub">
+            <img src="imagenes/githud.png" alt="Logo de GitHub">
+        </a>
+        <p class="copyright">Autora: Alejandra Arévalo</p>
+    </footer>
+</body>
+<script src="script.js"></script>
+
+</html>
